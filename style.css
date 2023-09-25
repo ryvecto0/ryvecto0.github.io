@@ -1,0 +1,24 @@
+body {
+    background-color: #100101;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: rgb(47, 42, 95);
+}
+
+.jumbotron h1 {
+    color: rgb(255, 255, 255);
+}
+
+.jumbotron p {
+    color:lightgray;
+}
+
+#projects {
+    background-color: rgb(47, 42, 95);
+}
+
+section {
+    padding-top: 5rem;
+}
