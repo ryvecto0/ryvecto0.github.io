@@ -10,6 +10,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 <!-- Akhir Bootstrap Icons -->
 
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- Akhir AOS -->
+
 <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 <!-- Akhir My CSS -->
@@ -45,27 +49,27 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/profile/zidane.png" alt="Zidane Ahmad Arrafi" width="200" class="rounded-circle img-thumbnail">
+      <img src="img/profile/zidane.png" alt="Zidane Ahmad Arrafi" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Zidane Ahmad Arrafi</h1>
-      <p class="lead">Web Development | Digital Marketing.</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#100101" fill-opacity="1" d="M0,96L0,96L120,96L120,160L240,160L240,224L360,224L360,32L480,32L480,128L600,128L600,128L720,128L720,128L840,128L840,224L960,224L960,192L1080,192L1080,224L1200,224L1200,64L1320,64L1320,256L1440,256L1440,320L1320,320L1320,320L1200,320L1200,320L1080,320L1080,320L960,320L960,320L840,320L840,320L720,320L720,320L600,320L600,320L480,320L480,320L360,320L360,320L240,320L240,320L120,320L120,320L0,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Jumbotron -->
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row text-center mb-3 text-light">
           <div class="col">
             <h2 class="display-8">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center text-light">
-          <div class="col-md-4">
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum harum iusto iure reprehenderit molestias sint voluptatem veniam sed consequuntur!</p>
+          <div class="col-md-4" >
+            <p><small> ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum harum iusto iure reprehenderit molestias sint voluptatem veniam sed consequuntur!</small></p>
           </div>
-          <div class="col-md-4">
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora perspiciatis dolorum quaerat officia molestias quos sunt maiores optio architecto quam? Possimus hic quasi eius enim.</p>
+          <div class="col-md-4" >
+            <p><small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora perspiciatis dolorum quaerat officia molestias quos sunt maiores optio architecto quam? Possimus hic quasi eius enim.</small></p>
           </div>
         </div>
         </div>
@@ -78,13 +82,13 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center text-light mb-3">
-          <div class="col">
+          <div class="col" data-aos="zoom-in" >
             <h2 class="display-6">My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-out" data-aos-duration="500">
               <img src="img/Projects/1.jpg" class="card-img-top" alt="Project 1">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -92,7 +96,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-out" data-aos-duration="500">
               <img src="img/Projects/2.jpg" class="card-img-top" alt="Project 2">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -100,7 +104,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-out" data-aos-duration="500">
               <img src="img/Projects/3.jpg" class="card-img-top" alt="Project 3">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -108,7 +112,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-out" data-aos-duration="500">
               <img src="img/Projects/4.jpg" class="card-img-top" alt="Project 4">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -116,7 +120,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-out" data-aos-duration="500">
               <img src="img/Projects/5.jpg" class="card-img-top" alt="Project 5">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -128,6 +132,70 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#100101" fill-opacity="1" d="M0,192L26.7,186.7C53.3,181,107,171,160,149.3C213.3,128,267,96,320,90.7C373.3,85,427,107,480,122.7C533.3,139,587,149,640,170.7C693.3,192,747,224,800,218.7C853.3,213,907,171,960,165.3C1013.3,160,1067,192,1120,218.7C1173.3,245,1227,267,1280,240C1333.3,213,1387,139,1413,101.3L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center text-light mb-3">
+          <div class="col">
+            <h2 class="display-8">Galerry</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center" >
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (5).jpg" alt="gambar 5" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (6).jpg" alt="gambar 6" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (7).jpg" alt="gambar 7" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (4).jpg" alt="gambar 4" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (1).jpg" alt="gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (3).jpg" alt="gambar 3" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (9).jpg" alt="gambar 9" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (8).jpg" alt="gambar 8" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (2).jpg" alt="gambar 2" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/ (10).jpg" alt="gambar 10" class="img-fluid gallery-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Galerry -->
 
     <!-- Contact -->
     <section id="contact">
@@ -177,6 +245,30 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aosDuration = 500;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration: 3, delay: 0.5, text: 'Web Development | Digital Marketing.'})
+      gsap.from('.jumbotron img', {duration: 1, rotateY: 90, opacity: 0, delay: 0.2});
+      gsap.from('.navbar', { duration: 0.5, y:'-100%', opacity: 0, ease: 'bounce'});
+      gsap.from('.display-4', { duration: 0.8, y:-50, opacity: 0, ease: 'back', delay: 0.3});
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxp1-_2o6jQsfwo5ouFIXsb91nxkK0YW8f8c0VhVgaeqqEC4UqMNaK8RSGNGkWu_90VMQ/exec'
